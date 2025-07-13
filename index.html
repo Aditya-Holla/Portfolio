@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Holla - Quantitative Finance & AI Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">Aditya Holla</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+            <div class="nav-social-links" style="display:flex;gap:1.2rem;align-items:center;margin-left:2rem;">
+                <a href="https://www.linkedin.com/in/aditya-holla-1253ab322/" target="_blank" style="color:#1a2a6c;font-size:2.1rem;background:#fff;border-radius:50%;padding:0.3rem 0.5rem;box-shadow:0 2px 8px rgba(26,42,108,0.10);transition:background 0.2s;"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Aditya-Holla" target="_blank" style="color:#1a2a6c;font-size:2.1rem;background:#fff;border-radius:50%;padding:0.3rem 0.5rem;box-shadow:0 2px 8px rgba(26,42,108,0.10);transition:background 0.2s;"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="headshot.jpg" alt="Aditya Holla Headshot" class="hero-headshot" />
+            <h1>Aditya Holla</h1>
+            <p>Data Science & Machine Learning Enthusiast</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="cta-primary">Contact Me</a>
+                <a href="#projects" class="cta-secondary">View Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 style="text-align:center;">About Me</h2>
+        <div class="about-content" style="display:flex;align-items:center;justify-content:center;gap:2.5rem;max-width:900px;margin:0 auto;text-align:left;">
+            <img src="headshot.jpg" alt="Aditya Holla Headshot" style="width:220px;height:220px;border-radius:50%;box-shadow:0 2px 12px rgba(26,42,108,0.12);object-fit:cover;flex-shrink:0;" />
+            <div>
+                <p>I’m Aditya Holla, a Statistics and Data Science student at UT Austin with a focus on machine learning, recommendation systems, and NLP. I build full-stack, ML-powered applications—from TorchFlix, a PyTorch-based movie preference classifier, to Code Companion, a GPT-driven Python code explainer. I enjoy working at the intersection of engineering and machine learning, designing systems that are both practical and scalable.</p>
+                <p>I've applied my skills in real-world settings through roles like Data Scientist at Foodify and upcoming work with American Airlines, where I continue to deepen my experience in applied ML and production pipelines. This portfolio showcases projects that reflect my technical depth, ability to learn fast, and passion for solving meaningful problems with data.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>🔥 TorchFlix – Binary Classification Model</h3>
+                <p>A PyTorch-based binary classifier that predicts whether a user would like a movie based on genres, plot keywords, and actor metadata. Engineered multi-hot encoded features using TMDB and MovieLens datasets, trained a neural network, and achieved 85%+ test accuracy. Focused on feature design, user preference modeling, and classification.</p>
+                <div class="tech-stack">
+                    <span>PyTorch</span>
+                    <span>Pandas</span>
+                    <span>Scikit-learn</span>
+                    <span>Model Evaluation</span>
+                    <span>Content-Based Filtering</span>
+                    <span>Binary Classification</span>
+                </div>
+                <a href="https://github.com/Aditya-Holla/TorchFlix" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
+                <p class="project-duration">July 2025 - August 2025</p>
+            </div>
+            <div class="project-card">
+                <h3>🍽️ Foodify – Influencer Matching Algorithm</h3>
+                <p>Developed a content-based influencer matching system for restaurants, using tag similarity and engagement-weighted scoring. Applied one-hot encoding and Jaccard similarity to compare influencers and restaurant profiles across normalized tags. Designed to automate partner recommendations and improve campaign targeting effectiveness.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Scikit-learn</span>
+                    <span>Recommendation Systems</span>
+                    <span>Similarity Metrics</span>
+                </div>
+                <a href="https://github.com/Aditya-Holla/FoodifyAlgo" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
+                <p class="project-duration">May 2025 - June 2025</p>
+            </div>
+            <div class="project-card">
+                <h3>💡 Code Companion – AI-Powered Code Explainer</h3>
+                <p>Built a Python code explainer using AST parsing and GPT-4, designed to analyze .py files and generate explanations for non-coders to understand python files. Integrated radon to score cyclomatic complexity and flag problematic code regions. Developed an interactive UI in Streamlit to visualize summaries and explanations per function block.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>OpenAI API</span>
+                    <span>AST</span>
+                    <span>Radon</span>
+                    <span>Streamlit</span>
+                    <span>GPT-4</span>
+                    <span>Software Tooling</span>
+                </div>
+                <a href="https://codeexplainerv1-wuq6wu4gbc6motbgbhrea6.streamlit.app/" target="_blank" class="project-link">View Web App <i class="fas fa-external-link-alt"></i></a>
+                <p class="project-duration">July 2025 - July 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="project-card">
+                <h3>Languages</h3>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>R</span>
+                    <span>SQL</span>
+                    <span>Java</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Machine Learning & Deep Learning</h3>
+                <div class="tech-stack">
+                    <span>Supervised & Unsupervised Learning</span>
+                    <span>Neural Networks</span>
+                    <span>Model Evaluation</span>
+                    <span>Regularization</span>
+                    <span>Model Deployment</span>
+                    <span>Recommendation Systems</span>
+                    <span>Embedding Models</span>
+                    <span>Classification</span>
+                    <span>Clustering</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Frameworks & Libraries</h3>
+                <div class="tech-stack">
+                    <span>PyTorch</span>
+                    <span>Scikit-learn</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
+                    <span>Seaborn</span>
+                    <span>Tidyverse</span>
+                    <span>OpenAI API</span>
+                    <span>Streamlit</span>
+                    <span>AST (Python parsing)</span>
+                    <span>Radon</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Data Tools</h3>
+                <div class="tech-stack">
+                    <span>Jupyter</span>
+                    <span>Excel/Sheets</span>
+                    <span>SQL (PostgreSQL/MySQL)</span>
+                    <span>JSON</span>
+                    <span>Git/GitHub</span>
+                    <span>API integration</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Domains & Applications</h3>
+                <div class="tech-stack">
+                    <span>Natural Language Processing (NLP)</span>
+                    <span>Recommender Systems</span>
+                    <span>Binary Classification</span>
+                    <span>Code Analysis Tools</span>
+                    <span>Data Visualization</span>
+                    <span>Feature Engineering</span>
+                    <span>Time Series (basic)</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Soft Skills</h3>
+                <div class="tech-stack">
+                    <span>Problem Solving</span>
+                    <span>Fast Learner</span>
+                    <span>Clear Communicator</span>
+                    <span>Team Collaboration</span>
+                    <span>Project Ownership</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <p style="text-align:center; margin-bottom: 1.2rem; color: #1a2a6c; font-size: 1.15rem;">Outside of work, I love staying active and exploring new experiences!</p>
+        <div class="interests-card project-card">
+            <div class="tech-stack">
+                <span>🏐 Volleyball</span>
+                <span>🎬 Movies</span>
+                <span>🥒 Pickleball</span>
+                <span>✈️ Travel</span>
+                <span>🎵 Music</span>
+                <span>📚 Reading</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p style="text-align:center; margin-bottom: 1.2rem; color: #1a2a6c; font-size: 1.15rem;">My academic journey at UT Austin has shaped my passion for data science and applied mathematics.</p>
+        <div class="education-cards">
+            <div class="education-card">
+                <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.7rem;">
+                    <img src="Longhorns.webp" alt="UT Austin Logo" style="height:40px;width:auto;border-radius:6px;box-shadow:0 2px 8px rgba(26,42,108,0.10);background:#fff;" />
+                    <h3 style="margin:0;">University of Texas - Austin</h3>
+                </div>
+                <span style="display:inline-block;background:#1a2a6c;color:#fff;padding:0.3rem 1rem;border-radius:12px;font-size:1rem;margin-bottom:0.7rem;">GPA: 3.91</span>
+                <p>Bachelor's, Statistics and Data Science &mdash; <b>May 2027</b></p>
+                <p class="coursework" style="margin-bottom:0.5rem;"><i class="fas fa-book"></i> <b>Relevant Courses:</b> Statistics, Data Structures and Algorithms, Calculus 1, 2, 3, Linear Algebra</p>
+                <p class="organizations" style="margin-bottom:0;"><i class="fas fa-users"></i> <b>Organizations:</b> American Statistical Association, Machine Learning Data Science Club, USIT</p>
+            </div>
+            <div class="education-card">
+                <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.7rem;">
+                    <img src="Longhorns.webp" alt="UT Austin Logo" style="height:40px;width:auto;border-radius:6px;box-shadow:0 2px 8px rgba(26,42,108,0.10);background:#fff;" />
+                    <h3 style="margin:0;">University of Texas - Austin</h3>
+                </div>
+                <p>Bachelor's, Applied Mathematics &mdash; <b>May 2027</b></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Professional Certifications</h2>
+        <div class="education-card">
+            <ul class="certification-list">
+                <li>Prompt Engineering for ChatGPT - Vanderbilt University (2024)</li>
+                <li>Prompt Engineering for GPT - Programming for Custom Content - Coursera Project Network</li>
+                <li>The Complete SQL Bootcamp: Go From Zero to Hero - Pieran Training</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Clean Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume-container">
+            <a href="Resume_updated_7.pdf" class="resume-link" target="_blank">
+                <div class="resume-icon">
+                    <i class="far fa-file-pdf"></i>
+                </div>
+                <div class="resume-text">
+                    <h3>View Resume</h3>
+                    <p>Click to open PDF</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aditya Holla. All rights reserved.</p>
+    </footer>
+
+    <script>
+    // Radar Chart
+    const radarCtx = document.getElementById('radarChart').getContext('2d');
+    new Chart(radarCtx, {
+        type: 'radar',
+        data: {
+            labels: ['Python', 'R', 'Data Analysis', 'Machine Learning', 'Financial Analysis', 'AI'],
+            datasets: [{
+                label: 'Skill Level',
+                data: [90, 85, 88, 82, 85, 80],
+                fill: true,
+                backgroundColor: 'rgba(26, 42, 108, 0.2)',
+                borderColor: '#1a2a6c',
+                pointBackgroundColor: '#1a2a6c',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: '#1a2a6c'
+            }]
+        },
+        options: {
+            scales: {
+                r: {
+                    angleLines: {
+                        color: 'rgba(0, 0, 0, 0.1)'
+                    },
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.1)'
+                    },
+                    pointLabels: {
+                        font: {
+                            size: 12,
+                            family: 'Poppins'
+                        }
+                    },
+                    suggestedMin: 0,
+                    suggestedMax: 100
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+
+    // Progress Chart
+    const progressCtx = document.getElementById('progressChart').getContext('2d');
+    new Chart(progressCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Prompt Engineering', 'Web Development', 'Data Visualization', 'Statistical Analysis'],
+            datasets: [{
+                label: 'Proficiency',
+                data: [95, 80, 85, 90],
+                backgroundColor: [
+                    'rgba(26, 42, 108, 0.7)',
+                    'rgba(178, 31, 31, 0.7)',
+                    'rgba(45, 55, 72, 0.7)',
+                    'rgba(26, 42, 108, 0.7)'
+                ],
+                borderColor: [
+                    '#1a2a6c',
+                    '#b21f1f',
+                    '#2d3748',
+                    '#1a2a6c'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    max: 100
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+    </script>
+</body>
+</html> 
